@@ -17,27 +17,11 @@ body {
     justify-content: center;
     align-items: center;
 
-    
-    background: linear-gradient(270deg, #05909f, #00383d, #0dd249, #f078d1);
-    background-size: 800% 800%;
-
-    -webkit-animation: AnimationName 36s ease infinite;
-    animation: AnimationName 36s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+   
 }
 
 div {
-    background: rgb(14, 13, 34);
+    background: rgb(132, 144, 247);
 border-radius: 39px;
 width: 375px;
 height: 568px;
@@ -137,3 +121,17 @@ button:active {
     grid-row: 6 / 8;
     grid-column: 4 / 5;
 }
+
+
+.bg_video {
+        position: fixed; 
+        right: 0; 
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+        width: auto; 
+        height: auto; 
+        z-index: -1000;
+        background: url(./Resumo-16968.webm) no-repeat;
+        background-size: cover; 
+    }
